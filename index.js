@@ -2,8 +2,8 @@ const fs = require('fs');
 const Hero = require('@ulixee/hero');
 
 
-// const websites = ['https://whitehouse.gov', 'https://ai.gov'];
-const websites = ['https://en.wikipedia.org/wiki/British_logistics_in_the_Western_Allied_invasion_of_Germany']
+const websites = ['https://whitehouse.gov', 'https://ai.gov'];
+// const websites = ['https://en.wikipedia.org/wiki/British_logistics_in_the_Western_Allied_invasion_of_Germany']
 
 
 async function takeScreenshots() {
@@ -26,7 +26,7 @@ async function takeScreenshots() {
 
 
         // search for .mw-body-content and get the innerText
-        const bodyContent = await hero.document.querySelector('.mw-body-content');
+        const bodyContent = await hero.document.querySelector('body');
         const bodyContentText = await bodyContent.textContent;
         // write the body content to a .txt file
         fs.writeFileSync(`./${filename}.txt`, bodyContentText);

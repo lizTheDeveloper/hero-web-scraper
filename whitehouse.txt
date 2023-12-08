@@ -1,0 +1,1216 @@
+
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCMPK29"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+
+if ((document.cookie.match('(^|; )contrast-cookie=([^;]*)') || 0)[2] === 'true') {
+	document.body.className = document.body.className.replace(' no-con', '');
+	document.body.className += ' accessibility__contrast';
+}
+if ((document.cookie.match('(^|; )font-size-cookie=([^;]*)') || 0)[2] === 'true') {
+	document.body.className = document.body.className.replace(' no-font', '');
+	document.body.className += ' accessibility__fontsize';
+}
+
+
+	Skip to content
+
+	
+
+	
+		<span class="sr-only">You have JavaScript disabled. Please enable JavaScript to use this feature.</span>
+	
+	
+		
+			Toggle High Contrast
+		
+		
+			
+
+	
+		Toggle High Contrast	
+	
+
+		
+	
+	
+		
+			Toggle Large Font Size
+		
+		
+			
+
+	
+		Toggle Large Font Size	
+	
+
+		
+	
+
+
+
+(function(opts){!function(e){"function"==typeof define&&define.amd?define("bilMap",e):e()}((function(){"use strict";opts||(opts={liveNow:"Live Now",route:"/live.json",link:"/live/"});var e=function(e){var t=document.createElement("div");t.className="alert-bar has-link ready-to-alert alert-bar--is-simple alert-bar--is-live",t.innerHTML='\n <div class="container-fluid">\n <a class="alert-bar__simple__link" href="'.concat(opts.link,'">\n <span class="screen-reader-text">').concat(opts.liveNow?opts.liveNow:"Live Now",": ").concat(e.title,'</span>\n </a>\n <p><span aria-hidden="true">').concat(opts.liveNow?opts.liveNow:"Live Now",": ").concat(e.title,"</span></p>\n </div>\n ");var n=document.querySelector(".alert-bar");if(n)n.parentNode.replaceChild(t,n);else{var i=document.querySelector("#page");i?i.parentNode.insertBefore(t,i):document.body.insertBefore(t,document.body.firstChild)}},t=function(t){var n=new XMLHttpRequest;n.open("GET",opts.route),n.setRequestHeader("Accept","application/json"),t&&n.setRequestHeader("If-Modified-Since",new Date(t).toGMTString()),n.onload=function(){var t;try{t=JSON.parse(n.responseText)}catch(e){return}e(t),sessionStorage.setItem("live",n.responseText)},n.send()};if(sessionStorage.liveTimestamp&&sessionStorage.live){try{var n=JSON.parse(sessionStorage.live);e(n)}catch(e){}if(sessionStorage.liveTimestamp){var i=Number(sessionStorage.liveTimestamp);Date.now()-i>6e4&&t(i)}}else t()}));})({"liveNow":"Live Now","link":"https:\/\/www.whitehouse.gov\/live\/","route":"https:\/\/www.whitehouse.gov\/live.json"});
+
+
+
+	
+
+	
+
+		
+			
+				
+					
+						The White House
+					
+					
+						The White House
+											
+				
+			
+			
+				
+					The White House
+					
+
+	
+		
+	
+
+
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+		
+	
+	
+		
+	
+	
+		
+	
+	
+	
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+		
+	
+	
+		
+	
+	
+		
+	
+	
+	
+		
+	
+	
+		
+	
+	
+
+
+
+#holiday-2022-20-left-bell { will-change: transform; transform-origin: 41px 48px; } #holiday-2022-20.holiday-2022-20-initial #holiday-2022-20-left-bell { animation: 1.500000s linear 2.5s 2 holiday-2022-20-left-ring } #holiday-2022-20.holiday-2022-20-go #holiday-2022-20-left-bell { animation: 1.500000s linear 2 holiday-2022-20-left-ring } #holiday-2022-20-right-bell { will-change: transform; transform-origin: 45px 48px; } #holiday-2022-20.holiday-2022-20-initial #holiday-2022-20-right-bell { animation: 1.500000s linear 2.5s 2 holiday-2022-20-right-ring } #holiday-2022-20.holiday-2022-20-go #holiday-2022-20-right-bell { animation: 1.500000s linear 2 holiday-2022-20-right-ring } 
+@keyframes holiday-2022-20-left-ring {
+	35% {
+		transform: rotate(-65deg);
+	}
+	40% {
+		transform: rotate(-70deg);
+	}
+	45% {
+		transform: rotate(-65deg);
+	}
+	80% {
+		transform: rotate(0deg);
+	}
+	90% {
+		transform: rotate(10deg);
+	}
+}
+@keyframes holiday-2022-20-right-ring {
+	35% {
+		transform: rotate(65deg);
+	}
+	40% {
+		transform: rotate(70deg);
+	}
+	45% {
+		transform: rotate(65deg);
+	}
+	80% {
+		transform: rotate(0deg);
+	}
+	90% {
+		transform: rotate(-10deg);
+	}
+}
+
+
+(function (logo) {
+	function restart() {
+		logo.classList.remove('holiday-2022-20-initial', 'holiday-2022-20-go');
+		restartTimeout = null;
+	}
+	restartTimeout = setTimeout(restart, 6*1000);
+	logo.addEventListener('mouseenter', function () {
+		if (!restartTimeout) {
+			logo.classList.add('holiday-2022-20-go');
+			restartTimeout = setTimeout(restart, 3*1000);
+		}
+	}, false);
+})(document.getElementById('holiday-2022-20'));
+
+				
+			
+						
+				
+
+					
+						
+							
+								Home							
+						
+					
+
+					Administration
+Priorities
+The Record
+Briefing Room
+Español
+				
+
+				
+									
+						
+							InstagramOpens in a new window
+FacebookOpens in a new window
+TwitterOpens in a new window
+YouTubeOpens in a new window
+						
+					
+													
+						Contact Us
+Privacy Policy
+Copyright Policy
+Accessibility Statement
+					
+								
+
+			
+			
+			
+				
+
+					
+
+						
+							
+						
+
+						
+							Menu
+							Close
+						
+
+						
+							
+						
+
+					
+
+				
+			
+			
+	To search this site, enter a search term
+	
+			
+	
+	
+	Search
+
+			
+	
+
+
+
+
+	
+		Mobile Menu Overlay
+	
+	
+		
+			
+				
+
+	#wh-oval-nofill-22 .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#0A2458;}
+	#wh-oval-nofill-22 .st1{opacity:0.5;fill:#0A2458;}
+	#wh-oval-nofill-22 .st2{fill:#0A2458;}
+
+
+
+	
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+			
+		
+	
+	
+		
+			
+				
+					
+
+													
+								Administration
+
+Show submenu for “Administration””
+
+
+	President Joe Biden
+	Vice President Kamala Harris
+	First Lady Dr. Jill Biden
+	Second Gentleman Douglas Emhoff
+	The Cabinet
+
+
+Executive Offices
+
+Show submenu for “Executive Offices””
+
+
+	Council of Economic Advisers
+	Council on Environmental Quality
+	Domestic Policy Council
+	Gender Policy Council
+	National Economic Council
+	National Security Council
+	National Space Council
+	Office of Intergovernmental Affairs
+	Office of Management and Budget
+	Office of the National Cyber Director
+	Office of National Drug Control Policy
+	Office of Public Engagement
+	Office of Science and Technology Policy
+	Office of the United States Trade Representative
+	Climate Policy Office
+	Presidential Personnel Office
+
+
+Priorities
+
+
+
+Briefing Room
+The White House
+
+Show submenu for “The White House””
+
+
+	Presidents
+	First Families
+	The Grounds
+	Our Government
+
+
+Get Involved
+
+Show submenu for “Get Involved””
+
+
+	Write or Call The White House
+	Join Us
+	White House Fellows
+	White House Internship Program
+
+
+
+
+
+The Record
+Disclosures
+Español
+							
+											
+					
+													
+								Contact Us
+Privacy Policy
+Copyright Policy
+Accessibility Statement
+							
+																			
+								
+									InstagramOpens in a new window
+FacebookOpens in a new window
+TwitterOpens in a new window
+YouTubeOpens in a new window
+								
+							
+												
+							
+								The White House
+								1600 Pennsylvania Ave NW
+								Washington, DC 20500
+							
+						
+					
+				
+			
+		
+	
+	
+
+
+	
+
+
+
+	
+	
+		
+			
+	To search this site, enter a search term
+	
+			
+	
+	
+	Search
+
+		
+					
+				
+																	
+							
+								Explore White House Resources
+							
+						
+									
+			
+							
+				
+											
+							Topics:						
+										
+																				
+								
+									Invest.gov								
+							
+																				
+								
+									Infrastructure								
+							
+																				
+								
+									Reproductive Rights								
+							
+																				
+								
+									Clean Energy								
+							
+																				
+								
+									Vaccines.gov								
+							
+											
+				
+			
+			
+	
+
+
+
+	
+		
+			
+									
+								
+										
+				
+				
+																
+							
+								A Proclamation on National Native American Heritage Month, 2023							
+						
+									
+									
+							
+		
+		
+			
+									
+													
+												Briefing Room													
+											
+								
+																	
+							
+								December 01, 2023							
+							
+								
+									FACT SHEET: Marking the Two-Year Anniversary of the Report on the Impact of Climate Change on Migration								
+							
+						
+																	
+							
+								November 30, 2023							
+							
+								
+									Remarks by President Biden at the National Christmas Tree Lighting								
+							
+						
+																	
+							
+								November 30, 2023							
+							
+								
+									A Proclamation on World AIDS Day, 2023								
+							
+						
+																	
+							
+								November 30, 2023							
+							
+								
+									Statement from President Joe Biden on October PCE Report								
+							
+						
+																	
+							
+								November 29, 2023							
+							
+								
+									Statement from President Joe Biden on the Release of American Hostage from Gaza								
+							
+						
+																	
+							
+								November 27, 2023							
+							
+								
+									First Lady Jill Biden Announces 2023 White House Holiday Theme:The “Magic, Wonder, and Joy” of the Holidays								
+							
+						
+																	
+							
+								November 29, 2023							
+							
+								
+									Remarks by President Biden on How Bidenomics is Mobilizing Investments in Clean Energy Manufacturing and Creating Good-Paying Jobs in Communities Around the Country | Pueblo, CO								
+							
+						
+									
+									
+						
+							View All						
+					
+							
+		
+	
+
+
+
+
+	
+		
+			You have JavaScript disabled. Please enable JavaScript to use this feature.		
+		
+							
+					Featured Media				
+						
+				
+					
+																			
+								
+A common play button icon with a circle surrounding a triangle pointing right
+
+
+							
+											
+											
+							This is an important step toward ending Big Pharma price gouging.						
+									
+			
+			
+				
+											
+							
+																									
+										
+A common play button icon with a circle surrounding a triangle pointing right
+
+
+									
+															
+															
+									The Biden-Harris Administration is meeting the moment on climate change.								
+													
+											
+							
+																							
+															
+									For far too long, Americans have paid more for prescription drugs than any major economy.								
+													
+											
+							
+																							
+															
+									Today, the Biden-Harris Administration approved another $4.8 billion in student debt relief for 80,300 people.								
+													
+											
+							
+																									
+										
+A common play button icon with a circle surrounding a triangle pointing right
+
+
+									
+															
+															
+									Watch as the halls of the White House fill with magic, wonder, and joy. ✨								
+													
+											
+							
+																							
+															
+									The actions we’re taking today at the Tribal Nations Summit are key steps into a new era of Tribal sovereignty and self-determination.								
+													
+											
+							
+																							
+															
+									President Biden and the First Lady joined the 2023 Kennedy Center Honorees and their families to celebrate the power of the arts.								
+													
+											
+							
+																							
+															
+									Tonight, we witnessed the Senate confirmation of my 160th life-tenured federal judge – continuing my Administration's emphasis on appointing demographically and professionally diverse men and women to the bench.								
+													
+											
+							
+																							
+															
+									Today, I spoke with G7 Leaders to discuss our unwavering support for Ukraine and ongoing efforts to respond to the situation in the Middle East.								
+													
+											
+							
+																							
+															
+									Unions foster safety, security, and economic growth – they’re America’s soul.								
+													
+									
+			
+			
+				
+					Previous Media
+					
+					
+					
+				
+				
+					Next Media
+					
+					
+					
+				
+			
+		
+	
+
+
+	
+		
+			
+				Close
+							
+			
+				Loading…			
+			
+																		
+													
+															
+																			
+																	
+																	This is an important step toward ending Big Pharma price gouging.																	
+															
+																	
+														
+													
+															
+																			
+																	
+																	The Biden-Harris Administration is meeting the moment on climate change.																	
+															
+																	
+														
+													
+															
+																			
+																	
+																	For far too long, Americans have paid more for prescription drugs than any major economy.																	
+															
+																	
+														
+													
+															
+																			
+																	
+																	Today, the Biden-Harris Administration approved another $4.8 billion in student debt relief for 80,300 people.																	
+															
+																	
+														
+													
+															
+																			
+																	
+																	Watch as the halls of the White House fill with magic, wonder, and joy. ✨																	
+															
+																	
+														
+													
+															
+																			
+																	
+																	The actions we’re taking today at the Tribal Nations Summit are key steps into a new era of Tribal sovereignty and self-determination.																	
+															
+																	
+														
+													
+															
+																			
+																	
+																	President Biden and the First Lady joined the 2023 Kennedy Center Honorees and their families to celebrate the power of the arts.																	
+															
+																	
+														
+													
+															
+																			
+																	
+																	Tonight, we witnessed the Senate confirmation of my 160th life-tenured federal judge – continuing my Administration's emphasis on appointing demographically and professionally diverse men and women to the bench.																	
+															
+																	
+														
+													
+															
+																			
+																	
+																	Today, I spoke with G7 Leaders to discuss our unwavering support for Ukraine and ongoing efforts to respond to the situation in the Middle East.																	
+															
+																	
+														
+													
+															
+																			
+																	
+																	Unions foster safety, security, and economic growth – they’re America’s soul.																	
+															
+																	
+								window.featuredMediaOverlayScripts = [{"attributes":{"async":"","src":"\/\/platform.instagram.com\/en_US\/embeds.js"},"contents":""},{"attributes":{"async":"","src":"https:\/\/platform.twitter.com\/widgets.js","charset":"utf-8"},"contents":""}];
+				
+					Close				
+			
+		
+	
+
+
+
+
+	
+			
+	
+		
+
+	
+		
+							
+					Investing in the American People				
+										From rebuilding our infrastructure to lowering costs for families, President Biden’s economic agenda is investing in America.
+					
+		
+											
+					
+						Investing in America
+					
+											
+													
+									
+											
+					
+						Affordable Connectivity Program
+					
+											
+													
+									
+											
+					
+						Infrastructure Projects
+					
+											
+													
+									
+											
+					
+						Clean Energy
+					
+											
+													
+									
+											
+					
+						Child Tax Credit
+					
+											
+													
+									
+					
+	
+
+
+
+
+	
+		
+			
+									We Want to Hear From You
+													Send a text message to President Biden, or contact the White House. Message and data rates may apply.Reply HELP for help or STOP to cancel.
+								
+					
+						Send Text					
+					
+						Contact Us					
+				
+			
+		
+		
+			
+				
+									
+									Get Involved
+												
+					
+
+Write or call the White House
+
+
+
+Join the Biden-Harris Administration
+
+
+
+Apply to be a White House Fellow
+
+
+
+Internship Opportunities at the White House
+
+				
+			
+		
+	
+
+
+
+
+	
+		
+							TheWhite House
+										Learn more about the current administration, our country’s former presidents, and the official residence.
+					
+		
+		
+											
+											
+							The Administration						
+										
+																				
+								
+																	
+								
+									President Biden
+								
+							
+																				
+								
+																	
+								
+									Vice President Harris
+								
+							
+																				
+								
+																	
+								
+									The Cabinet
+								
+							
+																				
+								
+																	
+								
+									Offices
+								
+							
+											
+				
+											
+											
+							About The White House						
+										
+																				
+								
+																	
+								
+									Past Presidents
+								
+							
+																				
+								
+																	
+								
+									First Families
+								
+							
+																				
+								
+																	
+								
+									The Grounds
+								
+							
+																				
+								
+																	
+								
+									Our Government
+								
+							
+											
+				
+					
+	
+
+
+	
+
+
+
+
+
+
+
+		
+
+	
+		
+					
+		
+			
+				
+										
+						
+							Home
+The Administration
+Executive Offices
+Priorities
+The Record
+Briefing Room
+The White House
+Disclosures
+Get Involved
+Español
+						
+					
+					
+					
+												
+							
+								Contact Us
+Privacy Policy
+Copyright Policy
+Accessibility Statement
+							
+						
+						
+						
+															
+									
+										InstagramOpens in a new window
+FacebookOpens in a new window
+TwitterOpens in a new window
+YouTubeOpens in a new window
+									
+								
+														
+								The White House
+								1600 Pennsylvania Ave NW
+								Washington, DC 20500
+							
+							
+								WH.gov
+															
+						
+					
+				
+			
+		
+	
+
+
+
