@@ -13,6 +13,7 @@
     "@ulixee/hero": "^2.0.0-alpha.25",
     "@ulixee/hero-playground": "^2.0.0-alpha.25",
     "install": "^0.13.0",
-    "npm": "^10.2.4"
+    "npm": "^10.2.4",
+    "pg": "^8.11.3"
   }
 }
